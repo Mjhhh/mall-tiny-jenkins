@@ -8,5 +8,5 @@ docker run -p 8088:8088 --name ${app_name} \
 --link mysql:db \
 -v /etc/localtime:/etc/localtime \
 -v /mydata/app/${app_name}/logs:/var/logs \
--d mall-tiny/${app_name}:1.0-snapshot
+-d 101.200.216.3:5000/${app_name}:1.0-snapshot
 echo '----start container----'
