@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.macro.mall</groupId>
     <artifactId>mall-tiny-jenkins</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-snapshot</version>
     <name>mall-tiny-jenkins</name>
     <description>Demo project for Spring Boot</description>
 
