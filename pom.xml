@@ -98,7 +98,7 @@
                 </executions>
                 <configuration>
                     <imageName>101.200.216.3:5000/${project.artifactId}:${project.version}</imageName>
-                    <dockerHost>http://101.200.216.3:5000</dockerHost>
+                    <dockerHost>http://101.200.216.3:2375</dockerHost>
                     <baseImage>java:8</baseImage>
                     <entryPoint>["java", "-jar","/${project.build.finalName}.jar"]
                     </entryPoint>
